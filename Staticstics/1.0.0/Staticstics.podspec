@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.description = "some description."
   s.frameworks = ["UIKit", "Foundation", "SystemConfiguration", "AdSupport", "CoreTelephony", "CoreGraphics"]
   s.libraries = ["resolv", "sqlite3"]
-  s.source ={ :http => 'https://raw.githubusercontent.com/MungerYu/frameworks/main/Statistics.zip'}
-
+  #s.source ={ :http => 'https://raw.githubusercontent.com/MungerYu/frameworks/main/Statistics.zip'}
+  s.source ={ :http => 'https://github.com/MungerYu/frameworks/blob/main/Statistics.zip'}
   s.ios.deployment_target    = '9.0'
   s.ios.vendored_framework   = 'ios/Statistics.framework'
 # s.dependency 'FMDB'
