@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary = "A lib to statistics user behavior."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"ZDerain"=>"derain-zhou@foxmail.com"}
-  s.homepage = "https://gitlab.com/gomo_sdk/GOMOStaitstics"
+  #s.homepage = "https://gitlab.com/gomo_sdk/GOMOStaitstics"
   s.description = "some description."
   s.frameworks = ["UIKit", "Foundation", "SystemConfiguration", "AdSupport", "CoreTelephony", "CoreGraphics"]
   s.libraries = ["resolv", "sqlite3"]
