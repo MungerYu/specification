@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name = "Co_st_CSStatistics"
-  s.version = "1.2.2"
+  s.name = "Staticstics"
+  s.version = "1.0.0"
   s.summary = "A lib to statistics user behavior."
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"ZDerain"=>"derain-zhou@foxmail.com"}
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking/Reachability', '>=4.0.1'
   s.dependency 'AFNetworking/Security', '>=4.0.1'
   s.dependency 'AFNetworking/Serialization', '>=4.0.1'
-  s.dependency 'CLUPCSInfoSDK'
+  #s.dependency 'CLUPCSInfoSDK'
 end
 
