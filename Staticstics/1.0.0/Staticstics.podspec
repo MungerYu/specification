@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
   s.description = "some description."
   s.frameworks = ["UIKit", "Foundation", "SystemConfiguration", "AdSupport", "CoreTelephony", "CoreGraphics"]
   s.libraries = ["resolv", "sqlite3"]
-  s.source ={ :http => 'https://raw.githubusercontent.com/gomocommercial/frameworkArcive/master/Co_st_CSStatistics/1.2.2/CLUPCSStatistics.zip'}
+  s.source ={ :http => 'https://raw.githubusercontent.com/MungerYu/frameworks/main/Statistics.zip'}
 
   s.ios.deployment_target    = '9.0'
-  s.ios.vendored_framework   = 'ios/CLUPCSStatistics.framework'
+  s.ios.vendored_framework   = 'ios/Statistics.framework'
 # s.dependency 'FMDB'
   s.dependency 'SAMKeychain'
    s.dependency 'FMDB/SQLCipher'
